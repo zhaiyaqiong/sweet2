@@ -1,0 +1,495 @@
+body{
+    padding:0;
+    margin:0;
+    background:#e4e6f5;
+    padding-bottom:72px;
+}
+
+li{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none;
+}
+p,ul,input,h1{
+    margin:0;
+    padding:0;
+}
+#nav{
+    width:100%;
+    height:28px;
+    background:#f23557;
+    padding:14px 0;
+
+}
+.maxdiv{
+    max-width:1100px;
+    margin:0 auto;
+    position:relative;
+}
+#nav img{
+    margin-left:20px;
+    width:81px;
+    height:28px;
+}
+
+#nav input.quan{
+    box-sizing: border-box;
+    width:28px;
+    height:28px;
+    border-radius:14px;
+    border:none;
+    outline:none;
+    position:absolute;
+    right:20px;
+    padding-left:28px;
+    background:url(../images/jingling1.png) no-repeat 7px  7px;
+    background-size:700px 700px;
+    background-color:#fff;
+    cursor:pointer;
+}
+
+#classification{
+    overflow: hidden;
+    width:100%;
+    margin-top:10px;
+}
+
+#classification li{
+    width:25%;
+    background:#fff;
+    list-style:none;
+    float:left;
+    box-sizing: border-box;
+    border-left:1px solid #eee;
+    border-bottom:1px solid #eee;
+    text-align:center;
+    cursor: pointer;
+}
+
+#classification li:active{
+    background:#eee;
+}
+
+
+
+#classification li .kuang{
+    padding:10% 0;
+}
+
+#classification li .img{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    background:#f23557;
+    display:inline-block;
+
+}
+
+#classification li .cake{
+    background:url(../images/jingling1.png) no-repeat 0px -36px ;
+    background-size:1050px 1050px;
+    background-color:#ffba00;
+}
+
+#classification li .ice{
+    background:url(../images/jingling1.png) no-repeat -79px -36px ;
+    background-size:1050px 1050px;
+    background-color:#7f4ce6;
+}
+
+#classification li .drink{
+    background:url(../images/jingling1.png) no-repeat -158px -38px ;
+    background-size:1050px 1050px;
+    background-color:#f73d87;
+}
+
+
+#classification li .cut{
+    background:url(../images/jingling1.png) no-repeat -80px -108px ;
+    background-size:1050px 1050px;
+    background-color:#4e93ef;
+}
+
+#classification li .gang{
+    background:url(../images/jingling1.png) no-repeat 0px -111px ;
+    background-size:1050px 1050px;
+    background-color:#f73d87;
+}
+
+#classification li .china{
+    background:url(../images/jingling1.png) no-repeat -246px -36px ;
+    background-size:1050px 1050px;
+    background-color:#4e93ef;
+}
+
+#classification li .special{
+    background:url(../images/jingling1.png) no-repeat -160px -111px ;
+    background-size:1050px 1050px;
+    background-color:#ffba00;
+}
+
+#classification li .more{
+    background:url(../images/jingling1.png) no-repeat -249px -108px ;
+    background-size:1050px 1050px;
+    background-color:#7f4ce6;
+}
+
+#classification li p{
+    font-size:14px;
+    padding-top:5%;
+    color:#333;
+}
+
+*{
+    font-family:'微软雅黑';
+}
+
+#list{
+    background:#fff;
+    max-width:1100px;
+    margin:0 auto;
+    margin-top:10px;
+}
+
+
+#list>p{
+    font-size:20px;
+    color:#f23557;
+    text-align: center;
+    padding:12px 0;
+    border-bottom:2px solid #eee;
+}
+
+#list ul li{
+    background:#fff;
+    border-bottom:1px solid #eee;
+    list-style:none;
+    overflow: hidden;
+}
+
+#list ul li div.left{
+    float:left;
+    width:28%;
+    padding:2%;
+    vertical-align: middle;
+}
+#list ul li div.left img{
+    width:100%;
+    vertical-align: top;
+}
+
+
+
+#list ul li div.right{
+    float:left;
+    padding:2% 0;
+    width:66%;
+}
+
+#list ul li div.right h1{
+    font-size:16px;
+    font-weight:normal;
+    color:#333;
+    line-height:30px;
+}
+
+#list ul li div.right p{
+    width:100%;
+    font-size: 12px;
+    color:#999;
+    line-height: 20px;
+    height:40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-bottom:5px;
+}
+
+#list ul li div.right div.pandg{
+    width:100%;
+}
+
+#list ul li div.right span.price{
+    float:left;
+    color:#f23557;
+    font-size:14px;
+    line-height:24px;
+}
+
+
+#list ul li div.right span.go{
+    display:inline-block;
+    width:60px;
+    height:24px;
+    vertical-align: top;
+    float:right;
+}
+
+#list ul li div.right span.go b{
+    display:inline-block;
+    height:24px;
+    width:36px;
+    background:#f23557;
+    font-size:14px;
+    font-weight:normal;
+    line-height:24px;
+    vertical-align: top;
+    color:#fff;
+    text-align: center;
+}
+
+#list ul li div.right span.go i{
+    display:inline-block;
+    width:0;
+    height:0;
+    border:12px solid transparent;
+    border-left:12px solid #f23557;
+}
+
+
+
+
+
+
+#foot{
+    background:#fff;
+    border-top:2px solid #ccc;
+    position:fixed;
+    bottom: 0;
+    z-index: 1000;
+    width:100%;
+    height:72px;
+}
+
+
+#foot ul li{
+    list-style:none;
+    float:left;
+    width:25%;
+}
+
+#foot ul li.active a span.state{
+    color:#f23557;
+}
+
+
+#foot ul li a{
+    display:inline-block;
+    width:100%;
+    height:52px;
+    padding:10px 0;
+    text-align:center;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#foot ul li a:active{
+    background:#f3efef;
+}
+
+#foot ul li a span.icon{
+    display:block;
+    width:38px;
+    height:31px;
+    background:url(../images/jingling.png) no-repeat -38px -72px;
+    margin:0 auto;
+}
+
+#foot ul li a span.fenlei{
+    background-position:0 -114px;
+}
+
+#foot ul li a span.shopping{
+    background-position:0 -156px;
+}
+
+#foot ul li a span.wode{
+    background-position:0 -199px;
+}
+
+
+#foot ul li a span.state{
+    color:#999;
+    font-size:14px;
+    display: block;
+    line-height: 14px;
+    padding-top:5px;
+}
+
+
+#donghua{
+    background:#fff;
+    text-align:center;
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+    #classification li p{
+        font-size:20px;
+        padding-top:1%;
+    }
+
+    #classification li .img{
+        width:72px;
+        height:72px;
+
+    }
+
+    #classification li .kuang{
+        padding:3% 0;
+    }
+
+
+    #list>p{
+        font-size:26px;
+        padding:20px 0;
+        font-weight:bold;
+    }
+    #list ul li div.left{
+        width:15%;
+    }
+
+
+
+    #list ul li div.right{
+        width:79%;
+    }
+
+    #list ul li div.right h1{
+        font-size:22px;
+        line-height:50px;
+    }
+
+    #list ul li div.right p{
+        font-size: 18px;
+        line-height:30px;
+        height:60px;
+    }
+
+    #list ul li div.right span.price{
+        color:#f23557;
+        font-size:20px;
+
+    }
+
+    #foot{
+        left:50%;
+        margin-left:-550px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+    body{
+        padding-bottom:50px;
+    }
+
+    #foot{
+        height:50px;
+    }
+
+    #foot ul li a{
+        height:39px;
+        padding:6px 0 5px 0;
+    }
+
+
+    #foot ul li a span.icon{
+        width:24px;
+        height:20px;
+        background:url(../images/jingling1.png) no-repeat -24px -131px;
+    }
+
+    #foot ul li a span.shouye{
+        background-size:700px 700px;
+    }
+
+
+    #foot ul li a span.fenlei{
+        background-position:0 -158px;
+        background-size:700px 700px;
+    }
+
+    #foot ul li a span.shopping{
+        background-position:0 -185px;
+        background-size:700px 700px;
+    }
+
+    #foot ul li a span.wode{
+        background-position:0 -209px;
+        background-size:700px 700px;
+    }
+
+
+    #classification li .cake{
+        background:url(../images/jingling1.png) no-repeat 0px -25px ;
+        background-size:700px 700px;
+        background-color:#ffba00;
+    }
+
+    #classification li .ice{
+        background:url(../images/jingling1.png) no-repeat -52px -25px ;
+        background-size:700px 700px;
+        background-color:#7f4ce6;
+    }
+
+    #classification li .drink{
+        background:url(../images/jingling1.png) no-repeat -105px -25px ;
+        background-size:700px 700px;
+        background-color:#f73d87;
+    }
+
+
+    #classification li .cut{
+        background:url(../images/jingling1.png) no-repeat -54px -73px ;
+        background-size:700px 700px;
+        background-color:#4e93ef;
+    }
+
+    #classification li .gang{
+        background:url(../images/jingling1.png) no-repeat 0px -73px ;
+        background-size:700px 700px;
+        background-color:#f73d87;
+    }
+
+    #classification li .china{
+        background:url(../images/jingling1.png) no-repeat -164px -24px ;
+        background-size:700px 700px;
+        background-color:#4e93ef;
+    }
+
+    #classification li .special{
+        background:url(../images/jingling1.png) no-repeat -107px -73px ;
+        background-size:700px 700px;
+        background-color:#ffba00;
+    }
+
+    #classification li .more{
+        background:url(../images/jingling1.png) no-repeat -166px -73px ;
+        background-size:700px 700px;
+        background-color:#7f4ce6;
+    }
+
+
+}
