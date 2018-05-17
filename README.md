@@ -1,2 +1,2 @@
 # sweet2
-项目链接：http://127.0.0.1.3605
+项目链接：https://zhaiyaqiong.github.io/sweet2/sweet-final/
